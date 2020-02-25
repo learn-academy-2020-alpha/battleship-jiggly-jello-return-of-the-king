@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -73,6 +75,12 @@
     height: var(--length);
     display: flex;
     flex-wrap: wrap;
+}
+
+.BoatsDisplay{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 
